@@ -35,7 +35,7 @@ sudo apt install make //ubuntu/deb
 ```
 
 ### windows
-My best advice for windows is to either install the WSL2 (https://learn.microsoft.com/en-us/windows/wsl/install) and follow the ubuntu instructions above
+My best advice for windows is to either install the WSL2 https://learn.microsoft.com/en-us/windows/wsl/install and follow the ubuntu instructions above
 
 if you dont want to do that use the cygwin project https://www.cygwin.com/ and install the right tools
 
@@ -53,3 +53,4 @@ git push origin master
 ```
 
 ## Rubric
+All asertions must pass and your program completes without error. every failed assertion 
