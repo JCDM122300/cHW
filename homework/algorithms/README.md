@@ -13,7 +13,7 @@ You have to implement 4 common algorithms
 ### First steps
 First you want to fork the `c` repo from github. If you do not have a github account, now is a great time to make one.
 
-to fork a repository, in the upper right hand you will see a button called `Fork`. click that and it will create a copy of this project in your github account. 
+to fork a repository, in the upper right hand you will see a button called `Fork`. click hat and it will create a copy of this project in your github account. 
 ### What to modify
 You want to modify the `algo.c` file in the `src/` directory. This is auto wired up to the `main.c` file to run a set of assertions. These assertions will determine your grade. 
 
@@ -39,6 +39,12 @@ My best advice for windows is to either install the WSL2 https://learn.microsoft
 
 if you dont want to do that use the cygwin project https://www.cygwin.com/ and install the right tools
 
+
+
+once you have the tools you want to run 
+`make` in the source directory of the algorithms project. this will compile and run your program
+
+once you are done run `make clean` to clean up your workspace (there is a .gitignore file that will keep your repo clean)
 
 #### advanced
 if you are really stuck on gcc for a compiler, modify the makefile and set `CC` to `gcc` instead of clang
